@@ -43,7 +43,7 @@ test:
 production:
   adapter: mysql2
   encoding: utf8
-  database: fp_production
+  database: family_portrait
   host: localhost
   username: root
   password:
