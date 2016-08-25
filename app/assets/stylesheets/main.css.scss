@@ -30,9 +30,9 @@ ul li.user:after {
   position: absolute;
   display: inline-block;
   width: 40px;
-  height: 200px;
+  height: 122px;
   content: "";
-  background: url("index/man01.png") no-repeat 0 0;
+  background-image: image-url("index/man01.png");
   background-size: 100%;
 	transition: 2s;
 }
