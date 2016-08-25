@@ -1,3 +1,49 @@
 .house {
 	width: 200px;
+	z-index: -100;
+}
+
+.building-wrap {
+	width: 200px;
+	margin: 130px auto;
+}
+
+.grass-bg {
+	background-color: #85CC58;
+}
+
+.full-height {
+	height: 100vh;
+}
+
+ul li {
+	line-height: 0px;
+  font-size: 0px;
+}
+
+ul li.user {
+  width: 40px;
+  transition: 2s;
+}
+
+ul li.user:after {
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  height: 200px;
+  content: "";
+  background: url("index/man.png") no-repeat 0 0;
+  background-size: 100%;
+	transition: 2s;
+}
+
+.char {
+	margin-top: -200px;
+	margin-left: 500px;
+}
+
+.show {
+	line-height: 1px;
+  font-size: 12px !important;
+  z-index: 100;
 }
